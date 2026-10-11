@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ImageLab Cache & Temporary Files
+imagelab_storage/
+*.dctz
+*.wavz
+*.huf
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
