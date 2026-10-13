@@ -413,6 +413,8 @@ export const CompressionLabPage: React.FC<CompressionLabPageProps> = ({
                   reconstructedSrc={latestResult.reconstructed_preview_b64 || ''}
                   originalLabel={`Original (${formatBytes(latestResult.metrics.original_size_bytes)})`}
                   reconstructedLabel={`${latestResult.algorithm_name} (${formatBytes(latestResult.metrics.compressed_size_bytes)})`}
+                  isExactMatch={latestResult.metrics.is_exact_match}
+                  mse={latestResult.metrics.mse}
                 />
               </div>
 
